@@ -39,19 +39,17 @@ Ma méthode : **l'architecture d'abord**, une petite tranche fonctionnelle de bo
 | **Langages** | Python · PySpark · SQL · T-SQL |
 | **DevOps** | Git · GitHub Actions · Terraform · Docker · Kubernetes (AKS) · Pipelines de déploiement Fabric |
 
-## 🚀 Réalisations
+## 🚀 Ce que je construis
 
-> 🔒 Mes laboratoires sont **privés**. J'en présente le code, l'architecture et les résultats **en direct lors des entrevues** — accès sur demande.
+> 🔒 Mes laboratoires sont **privés**. Le code, l'architecture et les résultats sont présentés **en direct lors des entrevues** — accès sur demande.
 
-<!-- PROJETS : à décider ensemble (étape 3). Candidats provisoires ci-dessous. -->
-
-| Projet | Ce qu'il démontre | Technologies |
-|---|---|---|
-| **Migration lakehouse — médaillon + Direct Lake** | Bronze → Silver (`MERGE`, qualité, quarantaine) → Gold en étoile → rapport Direct Lake ; trois environnements créés avec Terraform | Fabric · PySpark · Terraform · Power BI |
-| **Data Vault piloté par configuration à partir du CDC** | CDC SQL Server → contrat d'atterrissage → staging → hubs / liens / satellites générés depuis la configuration, orchestrés de bout en bout | AWS · Redshift · Step Functions |
-| **Data Vault événementiel** | Producteur/consommateur Kafka → JSON brut dans Snowflake → Data Vault → PIT → magasin en étoile ; rapprochement par partition | Kafka · Snowflake · Terraform |
-| **Un même Data Vault, trois plateformes** | Une conception reconstruite sur Fabric Warehouse et Databricks, résultats comparés au même oracle | Fabric · Databricks · Delta |
-| **RAG d'entreprise pour la conformité et l'audit** | Découpage tenant compte des métadonnées, recherche hybride, réponses sourcées avec citations, banc d'évaluation | Azure AI Search · OpenAI · Databricks |
+| Compétence | Ce que j'ai construit | Ce qu'il démontre | Technologies |
+|---|---|---|---|
+| **Migration de données** | SQL Server sur site → infonuagique : extraction CDC, contrat d'atterrissage, chargement de l'historique, bascule, rapprochement source / cible | Des migrations planifiées, réversibles et prouvées ligne par ligne | SQL Server · AWS (S3, Glue, Step Functions) · Fabric |
+| **Modélisation Data Vault** | Hubs / liens / satellites / PIT générés depuis une seule configuration, chargés en lot (CDC) et en continu (Kafka → Snowflake) | Une conception indépendante de la plateforme, reconstruite sur AWS, Fabric et Snowflake avec des résultats identiques | Redshift · Fabric Warehouse · Snowflake · Kafka · T-SQL |
+| **Ingénierie lakehouse** | Bronze → Silver (`MERGE`, contrôles de qualité, quarantaine) → Gold en étoile ; dev / test / prod créés avec Terraform | Une architecture médaillon de bout en bout, validée par des vérifications automatisées à chaque couche | Fabric · PySpark · Delta · Terraform |
+| **BI et modélisation sémantique** | Schéma en étoile → modèle sémantique Direct Lake → rapport Power BI, versionnés comme du code ; définitions d'indicateurs gouvernées | Des rapports fiables en libre-service sur un modèle unique et gouverné | Power BI · DAX · Direct Lake · TMDL / PBIR |
+| **IA générative / RAG** | Découpage tenant compte des métadonnées, recherche hybride et réponses sourcées avec citations sur des documents de conformité | Une IA générative ancrée dans les sources, avec évaluation de la recherche et des réponses | Azure AI Search · Azure OpenAI · Databricks |
 
 ## 📜 Certifications
 

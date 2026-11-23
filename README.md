@@ -39,19 +39,17 @@ I work **architecture first**: a small working slice end to end, proven by check
 | **Languages** | Python · PySpark · SQL · T-SQL |
 | **DevOps** | Git · GitHub Actions · Terraform · Docker · Kubernetes (AKS) · Fabric deployment pipelines |
 
-## 🚀 Featured work
+## 🚀 What I build
 
-> 🔒 My labs are **private**. I walk through the code, the architecture and the results **live in interviews** — access on request.
+> 🔒 My labs are **private**. Code, architecture and results are walked through **live in interviews** — access on request.
 
-<!-- PROJECTS: to be decided together (step 3). Draft candidates below. -->
-
-| Project | What it shows | Stack |
-|---|---|---|
-| **Lakehouse migration — medallion + Direct Lake** | Bronze → Silver (`MERGE`, quality, quarantine) → Gold star schema → Direct Lake report; three environments made with Terraform | Fabric · PySpark · Terraform · Power BI |
-| **Config-driven Data Vault from CDC** | SQL Server CDC → landing contract → staging → hubs / links / satellites generated from config, orchestrated end to end | AWS · Redshift · Step Functions |
-| **Event-driven Data Vault** | Kafka producer/consumer → raw JSON in Snowflake → Data Vault → PIT → star mart; reconciliation per partition | Kafka · Snowflake · Terraform |
-| **Same Data Vault, three platforms** | One design rebuilt on Fabric Warehouse and Databricks, results checked against the same oracle | Fabric · Databricks · Delta |
-| **Enterprise RAG for compliance & audit** | Metadata-aware chunking, hybrid search, grounded answers with citations, evaluation harness | Azure AI Search · OpenAI · Databricks |
+| Capability | What I built | What it proves | Stack |
+|---|---|---|---|
+| **Data migration** | On-premises SQL Server → cloud: CDC extraction, landing contract, history load, cutover, reconciliation source vs target | Migrations that are planned, reversible and proven row for row | SQL Server · AWS (S3, Glue, Step Functions) · Fabric |
+| **Data Vault modeling** | Hubs / links / satellites / PIT generated from one config, loaded in batch (CDC) and in streaming (Kafka → Snowflake) | One platform-agnostic design, rebuilt on AWS, Fabric and Snowflake with identical results | Redshift · Fabric Warehouse · Snowflake · Kafka · T-SQL |
+| **Lakehouse engineering** | Bronze → Silver (`MERGE`, quality checks, quarantine) → Gold star schema; dev / test / prod made with Terraform | End-to-end medallion design, validated by automated checks at every layer | Fabric · PySpark · Delta · Terraform |
+| **BI & semantic modeling** | Star schema → Direct Lake semantic model → Power BI report, versioned as code; governed KPI definitions | Trusted, self-service reporting on one governed model | Power BI · DAX · Direct Lake · TMDL / PBIR |
+| **GenAI / RAG** | Metadata-aware chunking, hybrid search and grounded answers with citations over compliance documents | Grounded GenAI with retrieval and answer-quality evaluation | Azure AI Search · Azure OpenAI · Databricks |
 
 ## 📜 Certifications
 
