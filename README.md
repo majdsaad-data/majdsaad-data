@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/LINKEDIN_HANDLE/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square" alt="LinkedIn"/></a>
+  <a href="https://www.linkedin.com/in/majdsaad/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square" alt="LinkedIn"/></a>
   <img src="https://img.shields.io/badge/Based%20in-Montréal%20area%2C%20Canada-555?style=flat-square" alt="Location"/>
   <img src="https://img.shields.io/badge/Languages-EN%20%C2%B7%20FR%20%C2%B7%20AR-555?style=flat-square" alt="Languages"/>
 </p>
@@ -62,6 +62,6 @@ I work **architecture first**: a small working slice end to end, proven by check
 ## 📫 Let's talk
 
 Open to **data engineering, data platform and GenAI** roles and consulting missions — in English or French.
-Best way to reach me: [LinkedIn](https://www.linkedin.com/in/LINKEDIN_HANDLE/).
+Best way to reach me: [LinkedIn](https://www.linkedin.com/in/majdsaad/).
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=90&section=footer" width="100%" alt=""/>
