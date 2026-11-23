@@ -1,6 +1,6 @@
 <!-- Profil GitHub de github.com/majdsaad-data — version française (anglais : README.md) -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=170&section=header&text=Majd%20Saad&fontColor=ffffff&fontSize=44&desc=Ing%C3%A9nieur%20IA%20et%20Donn%C3%A9es%20%C2%B7%20Sp%C3%A9cialiste%20en%20int%C3%A9gration&descAlignY=72&descSize=18" width="100%" alt="Majd Saad — Ingénieur IA et Données"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=170&section=header&text=Majd%20Saad&fontColor=ffffff&fontSize=44&desc=Ing%C3%A9nieur%20Donn%C3%A9es%20et%20IA%20%C2%B7%20Sp%C3%A9cialiste%20en%20int%C3%A9gration&descAlignY=72&descSize=18" width="100%" alt="Majd Saad — Ingénieur Données et IA"/>
 
 <p align="center">
   <a href="README.md">🇬🇧 English</a> · 🇫🇷 Français
@@ -14,7 +14,7 @@
 
 ## 👋 À propos
 
-Je suis **ingénieur IA et données** : je transforme des données existantes en plateformes gouvernées, prêtes pour l'IA.
+Je suis **ingénieur données et IA** : je transforme des données existantes en plateformes gouvernées, prêtes pour l'IA.
 Plus de 15 ans entre les affaires et les TI — assurance et réassurance, finance, commerce — et aujourd'hui je construis :
 
 - **Des plateformes de données** — migrations de SQL Server sur site vers l'infonuagique, ingestion CDC, **Data Vault 2.0**, **lakehouses en médaillon**, flux en continu avec **Kafka / Event Hubs**.

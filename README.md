@@ -1,6 +1,6 @@
 <!-- Profile README for github.com/majdsaad-data — English (French: README.fr.md) -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=170&section=header&text=Majd%20Saad&fontColor=ffffff&fontSize=44&desc=AI%20%26%20Data%20Engineer%20%C2%B7%20Integrations%20Specialist&descAlignY=72&descSize=18" width="100%" alt="Majd Saad — AI & Data Engineer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=170&section=header&text=Majd%20Saad&fontColor=ffffff&fontSize=44&desc=Data%20%26%20AI%20Engineer%20%C2%B7%20Integrations%20Specialist&descAlignY=72&descSize=18" width="100%" alt="Majd Saad — Data & AI Engineer"/>
 
 <p align="center">
   🇬🇧 English · <a href="README.fr.md">🇫🇷 Français</a>
@@ -14,7 +14,7 @@
 
 ## 👋 About me
 
-I'm an **AI & Data Engineer** who turns legacy data into governed, AI-ready platforms.
+I'm an **Data & AI Engineer** who turns legacy data into governed, AI-ready platforms.
 I've spent 15+ years between business and IT — insurance and reinsurance, finance and commercial domains — and today I build:
 
 - **Data platforms** — migrations from on-premises SQL Server to the cloud, CDC ingestion, **Data Vault 2.0**, **medallion lakehouses**, streaming with **Kafka / Event Hubs**.
